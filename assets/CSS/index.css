@@ -1,0 +1,108 @@
+.all{
+    margin: 20px 50px 20px 50px;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation bar */
+.navigation {
+  background-color: beige;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navigation li {
+  display: inline-block;
+  margin: 0 15px;
+  color: black;
+  font-weight: bold;
+}
+
+/* Container: Text + Image */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+  gap: 0; /* removed space between text and image */
+}
+
+/* Text section */
+.text {
+  flex: 1;
+  max-width: 50%;
+}
+
+.text h1 {
+  font-size: 35px;
+  color: black;
+  margin: 0;
+}
+
+.text h3 {
+  color: rgba(18, 1, 101, 0.8);
+  margin-top: 15px;
+}
+
+.text p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: darkblue;
+  color: white;
+  margin-right: 10px;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Image section */
+.image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image img {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .text {
+    max-width: 100%;
+  }
+
+  .image {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .image img {
+    max-width: 90%;
+  }
+}
