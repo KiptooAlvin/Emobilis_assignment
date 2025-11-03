@@ -25,7 +25,11 @@ The layout is fully responsive and optimized for readability, combining a clear 
 ##  Technologies Used
 
 - **HTML5** – Page structure and content  
-- **CSS3 (Flexbox)** – Styling, responsiveness, and layout alignment  
+- **CSS3 (Flexbox)** – Styling, responsiveness, and layout alignment
+
+
+  <img width="1310" height="543" alt="image" src="https://github.com/user-attachments/assets/7ba0e6a4-b616-404e-bcd3-b2d14c1d961a" />
+
  
 
 ---
